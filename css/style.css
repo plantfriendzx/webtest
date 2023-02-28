@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: rgb(15, 15, 15);
   height: 100vh;
   margin: 0rem;
   overflow: hidden; 
@@ -29,7 +29,7 @@ body {
 
 #blob {
   background-color: white;
-  height: 40vmax;
+  height: 20vmax;
   aspect-ratio: 1;
   position: absolute;
   left: 50%;
