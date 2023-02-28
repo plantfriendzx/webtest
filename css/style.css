@@ -78,6 +78,7 @@ body {
   background: linear-gradient(to right, #abeaf3, mediumpurple);
   animation: polse 60s infinite;
   opacity: 0.7;
+  overflow: hidden; 
 }
 
 #blur {
@@ -87,6 +88,7 @@ body {
   position: absolute;
   z-index: 1;
   backdrop-filter: blur(12vmax);
+  overflow: hidden; 
 }
 
 
@@ -102,6 +104,7 @@ body {
   content:"";
   position: absolute;
   display: flex;
+  overflow: hidden; 
   z-index: 2;
   width: 100vw;
   height: 100vh;
