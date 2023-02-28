@@ -24,6 +24,7 @@ body {
 
 #menu-items:hover > .menu-item {
   opacity: 0.3;
+  transform: scale(0.95, 0.95);
 }
 
 #menu-items:hover > .menu-item:hover {
