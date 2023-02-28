@@ -54,7 +54,11 @@ body {
     1px 1px 0px black,
     0.75px 0.75px 0px black,
     0.5px 0.5px 0px black,
-    0.25px 0.25px 0px black;
+    0.25px 0.25px 0px black,
+    6.25px 6.25px 0px mediumpurple,
+    6.5px 6.5px 0px mediumpurple,
+    6.75px 6.75px 0px mediumpurple,
+    7px 7px 0px mediumpurple;
 }
 
 .menu-item {
