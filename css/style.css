@@ -55,7 +55,6 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background: radial-gradient(ellipse at center, #ffeeac 0%, #5b2c15 100%);
 }
 
 .grain::after{
