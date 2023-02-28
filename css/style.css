@@ -21,20 +21,6 @@ body {
   z-index: 3;
 }
 
-@function textShadow($precision, $size, $color){
-  $value: null; 
-  $offset: 0;
-  $length: $size * (1 / $precision) - 1;
-
-  @for $i from 0 through $length {
-    $offset: $offset + $precision;
-    $shadow: $offset + px $offset + px $color;
-    $value: append($value, $shadow, comma);
-  }
-
-  @return $value;
-}
-
 
 #menu-items:hover > .menu-item {
   opacity: 0.3;
@@ -44,7 +30,30 @@ body {
   opacity: 1; 
   transform: scale(1.05, 1.05);
   transform: translate(-5px, -5px);
-  text-shadow: textShadow(0.25, 6, black);
+  text-shadow: 6px 6px 0px black, 
+    5.75px 5.75px 0px black, 
+    5.5px 5.5px 0px black, 
+    5.25px 5.25px  0px black,
+    5px 5px 0px black, 
+    4.75px 4.75px 0px black, 
+    4.5px 4.5px 0px black, 
+    4.25px 4.25px 0px black,
+    4px 4px 0px black,
+    3.75px 3.75px 0px black,
+    3.5px 3.5px 0px black,
+    3.25px 3.25px 0px black,
+    3px 3px 0px black,
+    2.75px 2.75px 0px black,
+    2.5px 2.5px 0px black,
+    2.25px 2.25px 0px black,
+    2px 2px 0px black,
+    1.75px 1.75px 0px black,
+    1.5px 1.5px 0px black,
+    1.25px 1.25px 0px black,
+    1px 1px 0px black,
+    0.75px 0.75px 0px black,
+    0.5px 0.5px 0px black,
+    0.25px 0.25px 0px black;
 }
 
 .menu-item {
