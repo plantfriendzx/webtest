@@ -10,3 +10,11 @@ window.onpointermove = event => {
     top: `${clientY}px`
   }, { duration: 4000, fill: "forwards" });
 }
+const menu = document.getElementById("menu");
+
+Array.from(document.getElementsByClassName("menu-item"))
+  .forEach((item, index) => {
+    item.onmouseover = () => {
+      menu.dataset.activeIndex = index;
+    }
+  });
