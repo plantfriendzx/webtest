@@ -83,6 +83,7 @@ body {
 #blur {
   height: 100%;
   width: 100%;
+  display: flex;
   position: absolute;
   z-index: 1;
   backdrop-filter: blur(12vmax);
@@ -91,6 +92,7 @@ body {
 
 .grain {
   position: absolute;
+  display: flex;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
